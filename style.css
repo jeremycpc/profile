@@ -1,14 +1,17 @@
 h1 {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'Josefin Sans', sans-serif;
   color: #F6FEFF;
   margin: -4px;
-  margin-top: 10px
+  margin-top: 20px
 }
 p {
   font-family: 'Roboto', sans-serif;
   text-align: center;
   padding-bottom: 15px;
   color: #FBF9F8;
+}
+#biography {
+  font-family:'Josefin Sans', sans-serif;
 }
 #profile {
     width: 200px;
@@ -118,6 +121,7 @@ div {
   font-weight: 500;
   padding: 10px;
   border-radius: 31px;
+  padding-top: 14px;
 }
 .btn-red:hover {
   background-color: #D14952;
