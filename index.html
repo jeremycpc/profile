@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <meta charset="UTF-8">
+  <title>Profile Page</title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat|Oswald|Roboto:300" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <link href="css/hover.css" rel="stylesheet" media="all">
+</head>
+<body>
+  <div id="sidebar">
+    <ul>
+      <li>
+        <a href="#summary"><i class="fas fa-info"></i></a>
+        <a href="#favourite-movies"><i class="fas fa-film"></i></a>
+        <a href="#help"><i class="fas fa-retweet"></i></a>
+      </li>
+    </ul>
+  </div>
+  <div id="page-content">
+    <div class="container">
+      <div class="card" id="summary">
+        <img src="images/githubpic.jpg" id= "profile" alt="Picture of Jeremy">
+        <h1>Jeremy Chiang</h1>
+        <h2>Programmer</h2>
+        <p>Aspiring 4 hour work week disciple.</p>
+        <p><a href="" class="btn-red">BIOGRAPHY</a></p>
+      </div>
+      <div class= "card">
+        <ul class= "list-inline">
+          <li><a href="https://www.facebook.com/dimsumboi" class = "facebook hvr-wobble-vertical"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="https://instagram.com/jeremycpc" class = "instagram hvr-wobble-vertical"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="" class = "snapchat hvr-wobble-vertical"><i class="fab fa-snapchat-ghost"></i></a></li>
+        </ul>
+      </div>
+      <div class= "card text-center moviecard" id="favourite-movies">
+        <h2>Favourite Movies</h2>
+        <table id= "movies">
+          <tr>
+            <td><h3>Rounders</h3><img src="images/250px-RoundersPoster.jpg" width = 200></td>
+              <td>
+                <p>
+                  Mike McDermott (Matt Damon) loses his money in a poker game against Russian gangster Teddy "KGB". Under pressure from his girlfriend, Jo, he promises to quit gambling. This lasts until his friend, Lester "Worm" Murphy, gets out of prison and needs to pay off an old debt. The pair come close to earning the money back but are caught cheating. Then Mike finds out the debt is owed to Teddy and makes one last-ditch effort to beat the Russian.
+                </p>
+            </td>
+          </tr>
+          <tr>
+            <td><h3>Interstellar</h3><img src="images/interstellar.jpg" width = 200></td>
+              <td>
+                <p>
+                  In Earth's future, a global crop blight and second Dust Bowl are slowly rendering the planet uninhabitable. Professor Brand (Michael Caine), a brilliant NASA physicist, is working on plans to save mankind by transporting Earth's population to a new home via a wormhole. But first, Brand must send former NASA pilot Cooper (Matthew McConaughey) and a team of researchers through the wormhole and across the galaxy to find out which of three planets could be mankind's new home.
+                </p>
+              </td>
+          </tr>
+          <tr>
+            <td><h3>Get Out</h3><img src="images/getout.jpeg" width = 200></td>
+              <td>
+                <p>
+                  Now that Chris (Daniel Kaluuya) and his girlfriend, Rose (Allison Williams), have reached the meet-the-parents milestone of dating, she invites him for a weekend getaway upstate with Missy and Dean. At first, Chris reads the family's overly accommodating behavior as nervous attempts to deal with their daughter's interracial relationship, but as the weekend progresses, a series of increasingly disturbing discoveries lead him to a truth that he never could have imagined.
+                </p>
+              </td>
+          </tr>
+        </table>
+      </div>
+      <div class="card" id="help">
+        <h2>About This</h2>
+          <p>This page has been coded during the <a href="https://lewagon.com/program" id="lewagon">FullStack program @LeWagon</a>.
+          </p>
+          <ul class= "list-inline">
+            <li><a href="#" class= "heart hvr-pulse"><i class="far fa-heart"></i></a></li>
+            <li><a href="#" class="share hvr-bounce-in"><i class="fas fa-share-alt"></i></a></li>
+            <li><a href="#" class="star hvr-buzz-out"><i class="far fa-star"></i></a></li>
+          </ul>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
